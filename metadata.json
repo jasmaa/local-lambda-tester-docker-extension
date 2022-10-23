@@ -1,0 +1,31 @@
+{
+  "icon": "icon.svg",
+  "ui": {
+    "dashboard-tab": {
+      "title": "Local Lambda Tester",
+      "src": "index.html",
+      "root": "ui"
+    }
+  },
+  "host": {
+    "binaries": [
+      {
+        "darwin": [
+          {
+            "path": "/host/unix/send-payload.sh"
+          }
+        ],
+        "linux": [
+          {
+            "path": "/host/unix/send-payload.sh"
+          }
+        ],
+        "windows": [
+          {
+            "path": "/host/windows/send-payload.bat"
+          }
+        ]
+      }
+    ]
+  }
+}
