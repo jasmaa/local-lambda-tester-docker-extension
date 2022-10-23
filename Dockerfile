@@ -18,7 +18,7 @@ LABEL org.opencontainers.image.title="Local Lambda Tester" \
     org.opencontainers.image.description="Test Lambda containers in Docker Desktop" \
     org.opencontainers.image.vendor="Jason Maa" \
     com.docker.desktop.extension.api.version=">= 0.3.0" \
-    com.docker.extension.screenshots="[{\"alt\": \"Sceenshot of lambda testing extension\", \"url\": \"https://raw.githubusercontent.com/jasmaa/local-lambda-tester/main/resources/screenshot_01.png\"}]" \
+    com.docker.extension.screenshots="[{\"alt\": \"Sceenshot of lambda testing extension\", \"url\": \"https://raw.githubusercontent.com/jasmaa/local-lambda-tester-docker-extension/main/resources/screenshot_01.png\"}]" \
     com.docker.extension.detailed-description="Test Lambda containers in Docker Desktop" \
     com.docker.extension.publisher-url="" \
     com.docker.extension.additional-urls="" \
