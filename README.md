@@ -6,7 +6,11 @@ Test Lambda containers in Docker Desktop.
 
 ## Getting Started
 
-Install the extension in Docker Desktop.
+Build the extension from source and install in Docker Desktop:
+
+```
+make install-extension
+```
 
 Build and run your Lambda container on your machine:
 
@@ -20,20 +24,23 @@ to it.
 
 ## Development
 
-Build the extension from source and install:
-
-```
-make install-extension
-```
-
-Enable UI hot reload:
+Enable UI hot reload for UI changes:
 
 ```
 docker extension dev ui-source jasmaa/local-lambda-tester http://localhost:3000
+
+cd ui
+npm start
 ```
 
-Disable after testing:
+Disable hot reload after testing:
 
 ```
 docker extension dev reset jasmaa/local-lambda-tester
+```
+
+Update extension with changes and view in Docker Desktop:
+
+```
+make update-extension
 ```
